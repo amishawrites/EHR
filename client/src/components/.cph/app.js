@@ -12,8 +12,8 @@ const { Readable } = require('stream'); // Import the Readable class from the 's
 
 const cryptoRandomString = require('crypto-random-string');
 //const fs = require('fs');
-const pinataSDK = require('@pinata/sdk');
-const pinata = new pinataSDK('bf97704cf121e29be6d3', 'fcae8bdc37ed6f1449dec5fdd7f99b2608fa7cd1a0097e10def37060874aa9e8');
+const pinataSDK = require('');
+const pinata = new pinataSDK('', '');
 
 // import {generate} from "..js/aeskey.js"
 class Employee extends Component {
@@ -133,8 +133,8 @@ class Employee extends Component {
       method: "POST",
       maxContentLength: Infinity,
       headers: {
-        pinata_api_key: "bf97704cf121e29be6d3",
-        pinata_secret_api_key: "fcae8bdc37ed6f1449dec5fdd7f99b2608fa7cd1a0097e10def37060874aa9e8",
+        pinata_api_key: "",
+        pinata_secret_api_key: "",
       },
       body: formData,
     };
